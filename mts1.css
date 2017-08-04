@@ -1,0 +1,27 @@
+#mts1{
+	width: 100%;height: 40px;background-color: grey;
+	font-size:larger;color: white;justify-content: space-between;display: flex;
+}
+#top-left{
+	width: 50%;height: 100%;display: flex;align-items: center;
+	justify-content:flex-end;
+}
+#top-right{
+	width: 10%;height: 100%;display: flex;align-items: center;
+}
+#top-center{
+	width: 40%;height: 100%;display: flex;align-items: center;justify-content:flex-end;
+}
+#adv1{
+	width: 30%;height: 60%;margin-left: 20px;
+	background-image: url(img/icon/material/返回.svg);background-size: contain;
+	background-repeat:no-repeat ;
+}
+#peng{
+	width: 70%;height: 60%;
+}
+#camera{
+	width: 100%;height: 60%;
+	background-image: url(img/icon/moments/相机.svg);background-size: contain;
+	background-repeat:no-repeat ;
+}

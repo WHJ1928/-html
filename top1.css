@@ -1,0 +1,159 @@
+            .max {
+				width: 100%;
+				height: 100%;
+				min-height: 300px;
+				position: fixed;
+				display: flex;
+				flex-flow: column;
+				/*border: 1px solid red;*/
+			}
+			
+			.top {
+				width: 100%;
+				height: 72;
+				background-color: #424242;
+				color: #BDBDBD;
+				z-index: 1;
+			}
+			
+			.head {
+				width: 100%;
+				height: 20px;
+				position: relative;
+				display: flex;
+				align-items: center;
+			}
+			.head div{
+				display: flex;
+				justify-content: flex-end;
+				
+			}
+			.top1{
+				width: 35%;
+				height: 20px;
+				position: absolute;
+				top: 1px;
+				right: 1px;
+				display: flex;
+			}
+			.xinhao{
+				width: 50%;
+				display: flex;
+				/*justify-content: flex-end;*/
+				align-items:flex-end;				
+			}
+			.xinhao div{
+				margin: 2px;
+				border-radius: 30%;
+			}
+			.xinhao1{
+				width: 2px;height: 3px;
+				border: 1px solid white;
+				background-color: white;
+				flex-flow:wrap;
+			}
+			.xinhao2{
+				width: 2px;height: 6px;
+				border: 1px solid white;
+				background-color: white;
+			}
+			.xinhao3{
+				width: 2px;height: 9px;
+				border: 1px solid white;
+				background-color: white;
+			}
+			.xinhao4{
+				width: 2px;height: 12px;
+				border: 1px solid white;				
+			}
+			.dianliang{
+				width: 50%;
+				display: flex;
+				align-items: center;
+				/*border: 1px solid white;*/				
+			}
+			.dianliang1{
+				width: 30px;height: 12px;
+				border: 1px solid white;
+				position: relative;
+			}
+			/*.dianliang1 div{
+				width: 10px;height: 8px;
+				background-color: red;
+			}*/
+			.dianliang2{
+				width: 20%;height: 12px;
+				background-color: red;
+				position: absolute;
+				left:0px 				
+			}
+			.dianliang3{
+				width: 2px;height:2px;
+				border: 1px solid white;
+				background-color: white;
+			}
+			.neck {
+				width: 100%;
+				height: 50px;
+				/*border: 1px solid red;*/
+				line-height: 50px;
+				font-size: larger;
+				position: relative;
+				display: flex;
+				text-align: center;
+			}			
+			.top2 {
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				top: 12px;
+				left:20px;
+				/*border: 1px solid red;*/
+				background: url(img/icon/material/返回.svg);
+				background-size: contain;				
+			}
+			.top3{
+				width: 70px;
+				height: 30px;
+				position: absolute;
+				left:60px;
+			}
+			.top4{
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				top: 12px;
+				right: 20px;
+				background: url(img/icon/moments/相机.svg);
+				background-size: contain;
+			}
+			.popup{
+				height: 250px;
+	            width: 180px;
+	            background: #616161;
+	            position: absolute;
+	            right:20px; top: 70px;
+	            z-index: 1;
+	            display: flex;
+	            flex-flow: column nowrap;
+	            justify-content: space-around;
+	            align-items: center;
+	            color: white;
+			}
+			.content{
+				width: 100%;
+	            border-bottom: 1px solid black;
+	            display: flex;
+	            flex-flow: row nowrap;
+			}
+			/* 最后一个弹出层 去掉底部 边框  */
+           .content:last-child{
+	            border-bottom: none;
+            }
+            .content div{
+            	padding: 0px 15px 0px 15px;
+            }
+            .content img{
+            	height: 30px;
+	            width: 30px;
+            }

@@ -1,0 +1,57 @@
+#sub1{
+	height: 24px;background-color: #424242;
+	justify-content: space-between;display: flex;
+	font-size: small;color: white;
+}
+#top1{
+	width: 50%; height: 100%;display: flex;flex-flow: row;
+	justify-content: flex-start;align-items: center;
+}
+#top2{
+	width: 50%;height: 100%;display: flex;
+	align-items: center;
+}
+#ret1{
+	width: 30%;height: 100%;
+	display: flex;justify-content:flex-end;
+}
+#ret2{
+	align-items: center;display: flex;
+	width: 30%;height: 100%;justify-content:flex-end;
+}
+#ret3{
+	align-items: center;justify-content: center;display: flex;
+	width: 40%;height: 100%;
+}
+#signal{
+	display: flex;align-items:flex-end;margin: 2px;
+}
+#sign1{
+	border: 1px solid white;width: 1px;height: 1px;margin: 1px;margin-bottom: 0px;
+	display: flex;justify-content: center;flex-flow: row;background: white;
+}
+#sign2{
+	border: 1px solid white;width: 1px;height: 4px;margin: 1px;margin-bottom: 0px;
+	display: flex;justify-content: center;flex-flow: row;background: white;
+}
+#sign3{
+	border: 1px solid white;width: 1px;height: 6px;margin: 1px;margin-bottom: 0px;
+	display: flex;justify-content: center;flex-flow: row;background: white;
+}
+#sign4{
+	border: 1px solid white;width: 1px;height: 9px;margin: 1px;margin-bottom: 0px;
+	display: flex;justify-content: center;flex-flow: row;background: white;
+}
+#sign5{
+	border: 1px solid white;width: 1px;height: 12px;margin: 1px;margin-bottom: 0px;
+	display: flex;justify-content: center;flex-flow: row;background: white;
+}
+#bat1{
+	width: 17px;height: 10px;border: 1px solid white;
+}
+#bat2{
+	width: 66%;height: 8px;border: 1px solid white;background: white;
+}
+#bat3{
+	width: 1px;height: 4px;border: 1px solid white;background: white;
+}

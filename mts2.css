@@ -1,0 +1,84 @@
+#mts2{
+	 height: 150px;width: 100%;
+	font-size:larger;color: #F5F5F5;justify-content: space-between;display: flex;
+	background: url(img/images/旅游-01.png);background-size:cover;
+	background-repeat:no-repeat ;position: relative;
+}
+#big{
+	overflow-y: auto ;
+}
+::-webkit-scrollbar{display: none};
+#ava1{
+	width: 80px;height: 40px;display: flex;align-items: center;
+	font-weight: bold;right: 0px;position: absolute;bottom:0px;border: 1px solid red;
+}
+#ava2{
+	width: 45%;height: 90%;border: 1px solid #b6b8c3;
+	box-shadow: 0px 0px 5px whitesmoke inset;/*边框阴影*/
+	background: url(img/images/头像.jpg);background-size:cover;
+	background-repeat:no-repeat ;
+}
+#mts3{
+	width: 100%; 
+	min-height: 80px;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 0px 14px 0px;
+	
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center; 
+}
+.content{
+	margin-top:30px ;
+}
+.content-left{
+	width: 80px;display: flex;justify-content: flex-end;
+}
+.content-left img{
+	margin-right: 20px;margin-top: 10px;height: 50px;width: 50px;/*border: 1px solid red;*/
+}
+.content-right{
+	width: 90%;padding: 0px 10px 0px 4px;/*border: 1px solid red;*/
+}
+.content-name{
+	width: 100%;/*border: 1px solid red;*/
+	color: #286090;
+	margin: -50px 0px 0px 60px;
+}
+.content-char{
+	width: 100%;font-size: small;margin: 0px 0px 0px 60px;/*border: 1px solid red;*/
+}
+.content-img{
+	width:80%;height: 100px;display: flex;flex-flow: row;
+	margin: 0px 0px 0px 60px;
+}
+.content-img img{
+	width: 50%;height: 90px;
+}
+.content-time{
+	width: 100%;font-size: small;margin: 0px 0px 0px 60px;color: #BDBDBD;height: 22px;
+	display: flex;/*border: 1px solid red;*/position: relative;align-items: center;
+}
+.lun{
+	width: 20px;height: 20px;position: absolute;right: 15%;
+	background: url(img/icon/moments/评论.svg) no-repeat;
+	background-position: center;
+	background-size: cover;
+/*	border: 1px solid red;*/
+}
+.time1{
+	/*border: 1px solid red;*/
+}
+.content-comment{
+	width: 80%;height: 60px;margin-left: 60px;background: #F5F5F5;
+	/*border: 1px solid red;*/font-size: smaller;color: #3F51B5;
+}
+.comment1{
+	border-bottom: 1px solid #EEEEEE;width: 100%;height: 15px;
+}
+.comment2{
+	width: 100%;height: 15px;/*border: 1px solid red;*/display: flex;white-space: ;
+}
+.content-c{
+	color: black;
+}

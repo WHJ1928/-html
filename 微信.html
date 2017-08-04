@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>微信界面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" type="text/css" href="container.css" />
+		<link rel="stylesheet" type="text/css" href="sub1.css" />
+		<link rel="stylesheet" type="text/css" href="sub2.css" />
+		<link rel="stylesheet" type="text/css" href="sub4.css" />
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			#sub3{
+	width: 100%;overflow-y: auto ;height: 100%;
+	flex-glow: 1;margin: 0 auto;
+}
+::-webkit-scrollbar{display: none;}
+.content{
+	height: 70px;border-bottom: 1px solid #E0E0E0;
+	padding: 0px 4px 0px 4px;overflow: scroll;
+	display: flex;width: 100%;
+	flex-flow: row nowrap;
+/*	justify-content: space-between;*/
+	align-items: center;
+}
+.content-left{
+	width: 40px;height: 40px;/*border: 1px solid red;*/position: relative;
+}
+.content-left img{
+	width: 40px;height: 40px;border-radius: 6px;
+}
+.content-center{
+	height: 50px;flex-glow: 1px;padding-right: 220px;/*border: 1px solid red;*/
+	display: flex;flex-flow: column;justify-content: flex-start;
+	width: 70%;white-space: nowrap;overflow: hidden;
+}
+.content-right{
+	height: 50px;font-size:15px;width: 10%;
+	text-align: right;padding: 10px;
+	color: #9E9E9E;/*border: 1px solid red;*/
+}
+.username{
+	width: 100%; height: 24px;
+	font-size:16px;
+	color: #424242;
+}
+.text {
+	width: 100%; height: 20px;
+	font-size:12px;
+	color: #9e9e9e;
+}
+.text-radio {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #bf360c;
+}
+		</style>
+	</head>
+
+	<body>
+		<div id="container">
+			<!-- 电池 信号 那部分 ： start -->
+			<div id="sub1">
+				<div id="top1">中国移动</div>
+				<div id="top2">
+					<div id="ret1">
+						<div>4G</div>
+						<div id="signal">
+							<div id="sign1"></div>
+							<div id="sign2"></div>
+							<div id="sign3"></div>
+							<div id="sign4"></div>
+							<div id="sign5"></div>
+						</div>
+					</div>
+					<div id="ret2">
+						<div>66%</div>
+						<div id="bat1">
+							<div id="bat2"></div>
+						</div>
+						<div id="bat3"></div>
+					</div>
+					<div id="ret3">下午3:15</div>
+				</div>
+			</div>
+			<!-- 电池 信号 那部分 ： End -->
+			<div id="sub2" class='header'>
+				<div id="two1">微信(6)</div>
+				<div id="two3"></div>
+				<div id="two2">
+					<a href="" id="search"></a>
+					<div id="add"></div>
+				</div>
+				<!-- 第二栏菜单 部分 ： End -->
+			</div>
+			<div class="popup">
+				<div class="content">
+					<div><img src="img/icon/control/发起群聊.svg" /></div>
+					<div>发起群聊</div>
+				</div>
+				<div class="content">
+					<div><img src="img/icon/control/添加朋友.svg" /></div>
+					<div>添加朋友</div>
+				</div>
+				<div class="content">
+					<div><img src="img/icon/control/扫一扫.svg" /></div>
+					<div>扫一扫</div>
+				</div>
+				<div class="content">
+					<div><img src="img/icon/control/收付款.svg" /></div>
+					<div>收付款</div>
+				</div>
+				<div class="content">
+					<div><img src="img/icon/control/信封.svg" /></div>
+					<div>帮助与反馈</div>
+				</div>
+			</div>
+			<div id="sub3">
+				<div class="content">
+					<div class="content-left">
+						<img src="img/photo/男孩-01.jpg">
+					</div>
+					<div class="content-center">
+						<div class="username">袜子</div>
+						<div class="text">老师点名了！</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/photo/女孩-01.jpeg" />
+					</div>
+					<div class="content-center">
+						<div class="username">死胖子</div>
+						<div class="text">你们啥时候去学校了？</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/images/porsche-panamera-image.jpg" />
+					</div>
+					<div class="content-center">
+						<div class="username">大嘴</div>
+						<div class="text">任俊好像在你们那！</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/images/建筑-03.jpg" />
+					</div>
+					<div class="content-center">
+						<div class="username">Tom</div>
+						<div class="text">你们学校啥时候开学？你啥时候去呀？</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/images/任俊.png" />
+					</div>
+					<div class="content-center">
+						<div class="username">死胖子</div>
+						<div class="text">你们啥时候去学校了？</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/images/头像.jpg" />
+					</div>
+					<div class="content-center">
+						<div class="username">死胖子</div>
+						<div class="text">你们啥时候去学校了？</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/photo/男孩-01.jpg">
+					</div>
+					<div class="content-center">
+						<div class="username">袜子</div>
+						<div class="text">老师点名了！</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/photo/bsj.png">
+					</div>
+					<div class="content-center">
+						<div class="username">袜子</div>
+						<div class="text">老师点名了！</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/photo/男孩-01.jpg">
+					</div>
+					<div class="content-center">
+						<div class="username">袜子</div>
+						<div class="text">老师点名了！</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+				<div class="content">
+					<div class="content-left">
+						<img src="img/images/心碎.jpg">
+					</div>
+					<div class="content-center">
+						<div class="username">晨光</div>
+						<div class="text">你们那下雨不？</div>
+					</div>
+					<div class="content-right">3:30</div>
+				</div>
+			</div>
+			<div id="sub4">
+				<a class="box" href="微信.html">
+					<div><img src="img/icon/menu/聊天-press.svg"></div>
+					<div class="menu" id="fon1">微信</div>
+				</a>
+				<a class="box" href="通讯录.html">
+					<div><img src="img/icon/menu/通讯录.svg"></div>
+					<div class="menu">通讯录</div>
+				</a>
+				<a class="box" href="发现.html">
+					<div><img src="img/icon/menu/发现.svg"></div>
+					<div class="menu">发现</div>
+					<div id="re"></div>
+				</a>
+				<a class="box" href="我.html">
+					<div><img src="img/icon/menu/me.svg"></div>
+					<div class="menu">我</div>
+				</a>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/弹出层1.js"></script>

@@ -1,0 +1,49 @@
+#sub3{
+	width: 100%;overflow-y: auto ;height: 100%;
+	flex-glow: 1;margin: 0 auto;overflow-x: hidden;
+	background: #E0E0E0;
+}
+::-webkit-scrollbar{display: none;}
+.content{
+	height: 50px;border-bottom: 1px solid #E0E0E0;
+	padding: 0px 4px 0px 4px;background: white;
+	display: flex;width: 100%;
+	flex-flow: row nowrap;
+/*	justify-content: space-between;*/
+	align-items: center;
+}
+.content-left{
+	width: 40px;height: 40px;/*border: 1px solid red;*/position: relative;
+}
+.content-left img{
+	width: 40px;height: 40px;border-radius: 6px;
+}
+.content-center{
+	height: 40px;flex-glow: 1px;/*padding-right: 220px;*/width:70%;
+	display: flex;justify-content: flex-start;
+	align-items: center;
+}
+.content-right{
+	height: 40px;font-size:15px;width: 15%;
+	text-align: right;padding: 10px;display: flex;align-items: center;
+	color: #9E9E9E;
+}
+.username{
+	width: 100%; height: 24px;
+	font-size:16px;
+	color: #424242;
+}
+.text {
+	width: 100%; height: 20px;
+	font-size:12px;
+	color: #9e9e9e;
+}
+.text-radio {
+	width: 100%; height: 20px;
+	font-size:14px;
+	color: #bf360c;
+}
+.content1{
+	height: 55px;width: 100%;display: flex;/*border: 1px solid red;*/
+	text-decoration: none;color: black;
+}
